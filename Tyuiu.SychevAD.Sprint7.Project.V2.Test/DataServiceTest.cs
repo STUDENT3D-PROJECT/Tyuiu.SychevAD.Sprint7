@@ -10,7 +10,7 @@ namespace Tyuiu.SychevAD.Sprint7.Project.V2.Test
         [TestMethod]
         public void LoadFromFileData()
         {
-            string path = @"C:\Users\Аболтус\source\repos\Tyuiu.KulakovEE.Sprint7.Project.V2\Tyuiu.KulakovEE.Sprint7.Project.V2\База.csv";
+            string path = @"C:\Users\База.csv";
             FileInfo fileInfo = new FileInfo(path);
             bool fileExists = fileInfo.Exists;
             bool wait = true;
